@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze-API", "Maze-API\Maze-API.csproj", "{43C70BC8-EAEC-45DF-A112-08C299261469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGenerator", "MazeGenerator\MazeGenerator.csproj", "{5E4847D2-EDF9-4E34-A09A-E699E5799055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazePathFinder", "MazePathFinder\MazePathFinder.csproj", "{0247AAC6-DA68-445C-87CC-4E1A06B99773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGeneratorTests", "MazeGeneratorTests\MazeGeneratorTests.csproj", "{03A9E703-8809-4238-909D-0150FC17DCCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43C70BC8-EAEC-45DF-A112-08C299261469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C70BC8-EAEC-45DF-A112-08C299261469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C70BC8-EAEC-45DF-A112-08C299261469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C70BC8-EAEC-45DF-A112-08C299261469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E4847D2-EDF9-4E34-A09A-E699E5799055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E4847D2-EDF9-4E34-A09A-E699E5799055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E4847D2-EDF9-4E34-A09A-E699E5799055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E4847D2-EDF9-4E34-A09A-E699E5799055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0247AAC6-DA68-445C-87CC-4E1A06B99773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0247AAC6-DA68-445C-87CC-4E1A06B99773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0247AAC6-DA68-445C-87CC-4E1A06B99773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0247AAC6-DA68-445C-87CC-4E1A06B99773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A9E703-8809-4238-909D-0150FC17DCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A9E703-8809-4238-909D-0150FC17DCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A9E703-8809-4238-909D-0150FC17DCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A9E703-8809-4238-909D-0150FC17DCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED50646F-4E94-4262-9E0D-F2FE1D4ED99E}
+	EndGlobalSection
+EndGlobal
